@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+  <link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+
+  <form class="form-horizontal">
+    <fieldset>
+
+      <!-- Form Name -->
+      <legend>Créer un élève</legend>
+
+      <!-- Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="singlebutton"></label>
+        <div class="col-md-4">
+          <button id="singlebutton" name="singlebutton" class="btn btn-primary">Créez</button>
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="textinput">Nom de l'élève</label>
+        <div class="col-md-4">
+          <input id="textinput" name="textinput" placeholder="Nom de l'eleve" class="form-control input-md" required="" type="text">
+          <span class="help-block">Indiquez le nom de l'élève</span>
+        </div>
+      </div>
+
+      <!-- Select Basic -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="selectbasic">Promotions</label>
+        <div class="col-md-4">
+          <select id="selectbasic" name="selectbasic" class="form-control">
+            <option value="1">Aaron Swartz</option>
+            <option value="2">Jimmy Wales</option>
+          </select>
+        </div>
+      </div>
+
+    </fieldset>
+  </form>
+
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
